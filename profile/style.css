@@ -1,0 +1,94 @@
+h1 {
+  color: rgb(35, 3, 37);
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 40px;
+  line-height: 1.8;
+  text-align: center;
+  border-radius: 50px;
+}
+.container{
+  text-align: center;
+  background-color: rgb(33, 231, 231);
+  border:rgb(83, 57, 107);
+  border-radius: 50px;
+  box-shadow: rgb(36, 35, 88)
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+img{
+  border-radius: 50%;
+}
+.car{
+  text-align: center;
+  background-color: rgb(129, 56, 117);
+  border:rgb(54, 36, 71);
+  border-radius: 50px;
+  box-shadow: rgb(46, 45, 77);
+}
+
+button{
+  background-color: rgb(214, 54, 214);
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(214, 57, 193);
+}
+.btn-link{
+  background-color: rgba(90, 13, 90, 0.274);
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.btn-face{
+  background-color: rgba(90, 13, 90, 0.274);
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.btn-tw{
+  background-color: rgba(90, 13, 90, 0.274);
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: rgb(69, 12, 75) ;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 40px;
+  line-height: 1.8;
+  text-align: center;
+}  
+body{
+  color:rgb(28, 1, 31);
+  background-color: rgb(204, 109, 166);    
+  font-family: Courier , monospace;
+  font-size: 20px; 
+  line-height: 1.6;  
+}
+ul{
+  color:rgb(119, 64, 124);   
+}
+li{
+text-decoration: none;    
+}
